@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.qrcodeapp"
+    namespace "com.aayft.quickqr"
     defaultConfig {
-        applicationId "com.qrcodeapp"
+        applicationId "com.aayft.quickqr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

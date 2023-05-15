@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'QrCodeApp' do
+target 'MyApp' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'QrCodeApp' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'QrCodeAppTests' do
+  target 'MyAppTests' do
     inherit! :complete
     # Pods for testing
   end

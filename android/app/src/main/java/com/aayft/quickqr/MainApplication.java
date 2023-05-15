@@ -1,4 +1,4 @@
-package com.qrcodeapp;
+package com.aayft.quickqr;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
