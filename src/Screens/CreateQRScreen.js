@@ -17,6 +17,7 @@ function CreateQRScreen() {
         placeholder="Enter text"
         value={text}
         onChangeText={(value) => setText(value)}
+        color="#000000"
       />
       <TouchableOpacity style={styles.button} onPress={handleGenerateQR}>
         <Text style={styles.buttonText}>Generate QR</Text>
